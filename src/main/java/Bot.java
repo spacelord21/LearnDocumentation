@@ -24,16 +24,17 @@ public class Bot extends TelegramLongPollingBot {
     QuestionsParser questionsParser = new QuestionsParser();
     HashMap<Long,Boolean> firstPermissionMode = new HashMap<>();
     HashMap<Long,Boolean> secondPermissionMode = new HashMap<>();
-
+    private final String BOT_NAME = "FIrstJavaTest_bot";
+    private final String BOT_TOKEN = "5154928569:AAHrksvlAFGLxWOuokYPDLXMvh81zdEnzaY";
 
     @Override
     public String getBotUsername() {
-        return "FIrstJavaTest_bot";
+        return BOT_NAME;
     }
 
     @Override
     public String getBotToken() {
-        return "5154928569:AAHrksvlAFGLxWOuokYPDLXMvh81zdEnzaY";
+        return BOT_TOKEN;
     }
 
     @Override
