@@ -35,7 +35,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass>
+                            <mainClass>src.java.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
